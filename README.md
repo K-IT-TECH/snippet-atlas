@@ -2,9 +2,11 @@
 
 # Snippet Atlas
 
+[**Open live app →**](https://k-it-tech.github.io/snippet-atlas/)
+
 A searchable code notebook with tags, favorites and JSON export.
 
-**Status:** Working local-first web app. Responsive, dependency-free, and ready for GitHub Pages. No backend or account system.
+**Status:** Working local-first web app. Responsive, dependency-free, and published on GitHub Pages. No backend or account system.
 
 ## Why build it?
 
@@ -20,7 +22,6 @@ Create a tool you can use while learning and building your other projects.
 - Search titles, code and comma-separated tags.
 - Filter by language or favorites.
 - Copy plain code and export your collection as JSON.
-
 - Download and restore versioned JSON backups, with validation before replacement.
 - Use the app offline after the first successful online visit (HTTPS or localhost).
 
@@ -77,7 +78,7 @@ For future releases, update the cache version in `sw.js` when changing the offli
 
 Code is displayed as escaped plain text and never executed. There is no syntax highlighting or cloud sync. JSON backups can be restored through Your data. Clipboard access may require a secure context; a legacy copy fallback is included. Use your own snippet content when customizing.
 
-Sample data is fictional. Changes stay in `localStorage` in this browser, are not encrypted, and do not sync across devices. Clearing browser data removes them. Multiple tabs do not coordinate edits. Use **Your data → Download backup** to export a version 1 JSON snapshot, then choose that file under **Restore** on another device. Restore validates the app name, version, fields, ranges and record references, previews the record count, and asks before replacing local data. Back up your current data first. Focus timers restore paused. Files larger than 2 MB are rejected. **Reset demo** replaces the saved data after confirmation. Browser data is separate from the source files you upload to GitHub.
+Sample data is fictional. Changes stay in `localStorage` in this browser, are not encrypted, and do not sync across devices. Clearing browser data removes them. Multiple tabs do not coordinate edits. Use **Your data → Download backup** to export a version 1 JSON snapshot, then choose that file under **Restore** on another device. Restore validates the app name, version, fields, ranges and record references, previews the record count, and asks before replacing local data. Back up your current data first. Files larger than 2 MB are rejected. **Reset demo** replaces the saved data after confirmation. Browser data is separate from the source files you upload to GitHub.
 
 ## Next steps
 
