@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Snippet Atlas",
+  "short_name": "Snippet Atlas",
+  "description": "A searchable code notebook with tags, favorites and JSON export.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141920",
+  "theme_color": "#141920",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
