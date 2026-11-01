@@ -32,3 +32,10 @@ This is a focused starter-app check, not a complete browser-compatibility or acc
 - Offline reload after service worker activation; cache isolation between apps.
 - Desktop and narrow mobile layouts after adding data controls.
 - CampusPulse calendar file formatting and escaping.
+
+
+## Storage recovery and offline refresh — 1 November 2026
+
+Startup and backup restore share complete nested-record validation. Invalid stored data falls back to demo data without overwriting the original value. The v2 worker precaches the schema and refreshes offline HTML after successful root/index navigation.
+
+Run `node --test tests/*.test.cjs`. The tests cover corrupted storage, malformed nested fields, duplicate IDs, offline shell refresh, missing-cache responses and cache isolation. The service-worker tests use mocked fetch/cache APIs; they are not physical-device certification.
